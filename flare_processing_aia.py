@@ -12,7 +12,7 @@ from check_quality import check_quality
 #from sunpy.physics.differential_rotation import differential_rotate
 #from sunpy.coordinates import propagate_with_solar_surface
 from aiapy.calibrate import register, update_pointing
-from aiapy.calibrate.util import get_pointing_table
+from aiapy.calibrate.utils import get_pointing_table
 from pathlib import Path
 
 ######################################################################################

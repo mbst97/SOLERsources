@@ -5,7 +5,7 @@ import numpy as np
 import sunpy.map as smap
 #from sunpy.physics.differential_rotation import differential_rotate
 from aiapy.calibrate import register, update_pointing
-from aiapy.calibrate.util import get_pointing_table
+from aiapy.calibrate.utils import get_pointing_table
 from astropy import units as u
 import copy
 

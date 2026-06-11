@@ -13,7 +13,7 @@ from check_exptime import check_exptime
 from mean_base_map import mean_base_map
 from sunpy.map.maputils import all_coordinates_from_map, coordinate_is_on_solar_disk
 from aiapy.calibrate import register, update_pointing
-from aiapy.calibrate.util import get_pointing_table
+from aiapy.calibrate.utils import get_pointing_table
 from pathlib import Path
 
 ##########################################################################################
